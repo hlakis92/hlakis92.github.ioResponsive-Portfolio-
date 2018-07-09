@@ -1,0 +1,8 @@
+.jumbotron{
+    color: #FFFFFF;
+    Background-color: rgba(52, 115, 252, 0.863);
+    }
+
+.row {
+    border: solid, rgba(52, 115, 252, 0.863), 2px;
+}

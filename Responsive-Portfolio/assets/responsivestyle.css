@@ -1,0 +1,230 @@
+
+@media only screen and (min-width: 980px) {
+/* For desktop: */
+
+
+@media only screen and (min-width: 640px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    p {
+        background-color: white;
+    }
+}
+
+/*Edits the structure of the page*/
+html {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+/*Edits the whole body of the site*/
+body {
+    font-family: 'PT Sans', 'Georgia', Times, Times New Roman, serif;
+    width: auto;
+    overflow: hidden;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
+
+/*Edits the h1 and ul items*/
+.navigation {
+    background: none;
+    padding: 30px;
+    width: auto;
+    font-size: 22px;
+}
+/*This edits the navigation letters*/
+a {
+    text-decoration: none;
+    color: #245a57;
+}
+a:hover { 
+    background-color: rgba(51, 155, 112, 0.637);
+}
+
+/* Edits the navigation list*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    display: inline;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/*This edits the div containers*/
+div {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    float: left;
+    margin: auto;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.navbuttons {
+    float: right;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    width: auto;
+    text-decoration: none;
+}
+
+/*sets changes to the all content items in center of page*/
+section {
+    background: white;
+    width: 960px;
+    height: 600px;
+    word-wrap: break-word;
+    padding: 30px;
+    margin: auto;
+    clear: both;
+}
+
+/*This esits the font on the profile page's main content*/
+p {
+    font-size: 20px;
+}
+
+/*This line makes words wrap around picture*/
+.main {
+    word-wrap: break-word;
+}
+
+h2 {
+
+}
+
+/*This is the image in the profile page*/
+img {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 22%;
+    float: left;
+}
+
+/*This is the line in the section box with the content in it*/
+hr {
+    background: #4aaaa5;
+    padding: 5px;
+    width: 100%;
+    clear: both;
+    
+}
+
+/*This edits the font size of the form*/
+form {
+    font-size: 20px;
+}
+
+/*This is the "Name & Email" section box*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+/*This is the "Comment" section box*/
+ 
+textarea {
+    width: 100%;
+    height: 140px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: none;
+    font-size: 20px;
+    font-family: 'PT Sans', 'Georgia', Times, Times New Roman, serif;
+}
+
+/*This edits the "Submit" button*/
+input[type=submit]{
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+}
+
+/*This edits the "Reset" button*/
+input[type=reset]{
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+}
+
+/*This is the green line at the bottom of the page*/
+.line {
+    bottom: 5.5%;
+    position: bottom;
+    display: block;
+    left: 0;
+    position: fixed;
+    right: 0;
+    Width: auto;
+}
+
+/*This is the footer at the bottom of the page with copywrite in it*/
+footer {
+    background: #666666;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+}

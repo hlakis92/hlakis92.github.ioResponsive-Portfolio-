@@ -1,0 +1,75 @@
+/*Edits the structure of the page*/
+html {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+/*Edits the whole body of the site*/
+body {
+    font-family: 'PT Sans', 'Georgia', Times, Times New Roman, serif;
+    width: auto;
+    overflow: hidden;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
+
+.timer {
+    display: inline-block;
+}
+
+
+/*sets changes to the all content items in center of page*/
+section {
+    background: white;
+    width: 960px;
+    height: 600px;
+    word-wrap: break-word;
+    padding: 30px;
+    margin-top: 12px;
+    margin: auto;
+    overflow: auto;
+    clear: both;
+}
+
+/*This esits the font on the profile page's main content*/
+p {
+    font-size: 15px;
+}
+
+/*This line makes words wrap around picture*/
+.main {
+    word-wrap: break-word;
+}
+
+#submit {
+    margin:auto;
+    display:block;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+
+} 
+
+/*This is the footer at the bottom of the page with copywrite in it*/
+footer {
+    background: #666666;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+}

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script>
+            window.addEventListener("load", function() {
+                var element = document.getElementsByClassName('element')[1].innerHTML
+                console.log(element);
+
+                var elementID = document.getElementById('element');
+                console.log(elementID);
+            });
+
+        </script>
+    </head>
+
+    <body>
+        <div class="element">
+            abc
+        </div>
+        <div class="element">
+            def
+        </div>
+
+        <div id="element">
+            xyz
+        </div>
+    </body>
+</html>
